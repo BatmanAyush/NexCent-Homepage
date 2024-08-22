@@ -1,0 +1,21 @@
+.footer-page {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100vw;
+    background-color: rgb(2, 36, 5);
+    color: white;
+    padding: 20px 0; /* Added padding for better spacing */
+
+}
+
+.footer-page .company-name,
+.footer-page p {
+    margin: 0 10px; /* Adds some space between the two texts */
+
+}
+
+.company-name {
+    font-weight: 550;
+    font-size: 30px;
+}

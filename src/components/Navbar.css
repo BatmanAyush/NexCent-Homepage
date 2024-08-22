@@ -1,0 +1,62 @@
+.navbar {
+    width: 100vw;
+    margin-top: 40px;
+    display: flex;;
+    justify-content: space-between; /* This will space out the title and list */
+    align-items: center; /* This will vertically center both the title and the list */
+    /* Optional: Add some padding to the navbar */
+  vertical-align: text-top;
+  margin-bottom:0px;
+}
+
+
+.navbar p {
+    display: inline;
+    margin:0;
+    margin-left: 250px;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    bottom: 12px;
+    left: 150px;
+   
+  
+    /* Ensure there's no margin on the title */
+}
+
+ul {
+    display: flex;
+    list-style-type: none; /* Remove bullets */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    margin-right: 150px;
+
+    
+}
+
+li {
+    vertical-align: top;
+    margin-left: 20px; /* Space between list items */
+   
+    color: rgba(0, 0, 0, 0.718);
+    opacity: 0.9;
+    
+}
+ul button{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 145px;
+  font-size: 15px;
+   padding: 10px;
+   position: relative;
+   bottom: 15px;
+   border: none;
+   background:  rgb(21, 183, 21);
+   color: white;
+   border-radius: 4px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   font-weight: 520;
+   right: 70px;
+
+}
